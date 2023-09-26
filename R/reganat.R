@@ -31,7 +31,7 @@ y_multi <- tibble(price = coef_lm2_alt[1] + coef_lm2_alt[2]*auto$length_resid,
                   length_resid = auto$length_resid)
 
 auto %>%
-  ggplot(aes(x=length_resid, y = price)) +
+  ggplot(aes(x = length_resid, y = price)) +
   geom_point() +
   geom_smooth(data = y_multi, color = "blue") +
   geom_smooth(data = y_single, color = "red")

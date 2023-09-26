@@ -14,5 +14,5 @@ as_tibble(t(sapply(lm, coef))) %>%
   summary(x)
 
 as_tibble(t(sapply(lm, coef))) %>% 
-  ggplot()+
+  ggplot() +
   geom_histogram(aes(x), binwidth = 0.01)

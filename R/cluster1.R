@@ -95,5 +95,3 @@ ci95_nocluster <- ggplot(sample_n(sim_nocluster, 100),
 print(ci95_nocluster)
 
 sim_nocluster %>% summarize(type1_error = 1 - sum(param_caught)/n())
-
-

@@ -25,7 +25,7 @@ summary(tb[-1:-3])
 
 tb %>% 
   lm(y ~ x, .) %>% 
-  ggplot(aes(x=x, y=y)) + 
+  ggplot(aes(x = x, y = y)) + 
   ggtitle("OLS Regression Line") +
   geom_point(size = 0.05, color = "black", alpha = 0.5) +
   geom_smooth(method = lm, color = "black") +
