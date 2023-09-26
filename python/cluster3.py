@@ -84,6 +84,3 @@ p.ggplot(sim_nocluster.sample(100).sort_values('b1'),
   p.labs(x = 'sim ID', y = 'b1', title = 'Randomly Chosen 100 95% CIs') +\
   p.scale_color_discrete(name = 'True param value', labels = ('missed', 'hit')) +\
   p.coord_flip()
-
-
-

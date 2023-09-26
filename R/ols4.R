@@ -31,4 +31,3 @@ ggplot(auto) +
   geom_point(aes(x = length, y = price)) +
   geom_smooth(aes(x = length, y = price), data = y_multi, color = "blue") +
   geom_smooth(aes(x = length, y = price), data = y_single, color="red")
-

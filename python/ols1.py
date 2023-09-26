@@ -1,3 +1,5 @@
+#%pip install plotnine
+
 import numpy as np 
 import pandas as pd 
 import statsmodels.api as sm 
@@ -37,4 +39,3 @@ p.ggplot(tb, p.aes(x='x', y='y')) +\
              label = "Intercept = {}".format(-0.0732608)) +\
     p.annotate("text", x = 1.5, y = -30, color = "blue", 
              label = "Slope = {}".format(5.685033))
-

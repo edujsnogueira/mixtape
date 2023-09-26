@@ -77,5 +77,3 @@ sim_nocluster = run_cluster_sim(n_sims=1000, param = sim_params, cluster_robust 
 p.ggplot(sim_nocluster, p.aes('b1')) +  p.geom_histogram(color = 'black') +  p.geom_vline(xintercept = sim_params[1], color = 'red')
 
 1 - sum(sim_nocluster.param_caught)/sim_nocluster.shape[0]
-
-

@@ -23,4 +23,3 @@ tb['yhat1'] = reg_tb.predict(tb)
 tb['uhat1'] = reg_tb.resid
 
 tb.describe()
-

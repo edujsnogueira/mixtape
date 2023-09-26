@@ -89,5 +89,3 @@ p.ggplot(sim_nocluster.sample(100).sort_values('b1'),
 
 
 1 - sum(sim_nocluster.param_caught)/sim_nocluster.shape[0]
-
-

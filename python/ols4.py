@@ -10,6 +10,3 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 def read_data(file): 
 	return pd.read_stata("https://github.com/scunning1975/mixtape/raw/master/" + file)
-
-
-
