@@ -2,7 +2,7 @@ library(tidyverse)
 library(stargazer)
 
 tb <- tibble(
-  female = ifelse(runif(10000)>=0.5,1,0),
+  female = ifelse(runif(10000) >= 0.5,1,0),
   ability = rnorm(10000),
   discrimination = female,
   occupation = 1 + 2*ability + 0*female - 2*discrimination + rnorm(10000),

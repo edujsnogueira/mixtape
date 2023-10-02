@@ -32,6 +32,3 @@ p.ggplot(start_is_born, p.aes(x='talent', y='beauty')) +    p.geom_point(size = 
 p.ggplot(start_is_born[start_is_born.star==1], p.aes(x='talent', y='beauty')) +    p.geom_point(size = 0.5) +    p.xlim(-4, 4) +    p.ylim(-4, 4)
 
 p.ggplot(start_is_born[start_is_born.star==0], p.aes(x='talent', y='beauty')) +    p.geom_point(size = 0.5) +    p.xlim(-4, 4) +    p.ylim(-4, 4)
-
-
-
